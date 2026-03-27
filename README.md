@@ -51,8 +51,8 @@ model.fit(X_train,y_train)
 y_pred=model.predict(X_test)
 
 accuracy=accuracy_score(y_test,y_pred)
-print("\nName: R VENKATRAMANI")
-print("\nReg No: 212225240182")
+print("\nName: R JAYENTHAN")
+print("\nReg No: 212225240057")
 print("\nAccuracy",accuracy)
 
 print("Classification Report:\n", classification_report(y_test, y_pred))
